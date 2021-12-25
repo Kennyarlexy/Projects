@@ -1,0 +1,237 @@
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: sans-serif;
+}
+
+#forgot,
+.middle,
+#bottom-text {
+    color: rgb(68, 68, 68);
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    grid-template-rows: auto;
+    align-content: center;
+    gap: 0 10%;
+
+    width: 50vw;
+    min-width: 450px;
+    margin: 50px auto;
+}
+
+.left-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#img-1 {
+    width: 70%;
+}
+
+#img-2 {
+    width: 73.5%;
+    margin-left: -50%;
+    margin-top: 7%;
+}
+
+.right-container {
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 65% 10% 18%;
+    gap: 2%;
+}
+
+.top,
+.middle,
+#get-app {
+    border-radius: 5px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    background-color: white;
+}
+
+#instagram {
+    width: 55%;
+    margin: 8% 0 5% 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    height: 38%;
+    width: 80%;
+}
+
+.input-box {
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 35%;
+    margin: 1% 0;
+    background-color: rgb(250, 250, 250);
+    font-size: 0.6em;
+}
+
+.button {
+    margin-top: 2%;
+    width: 100%;
+    height: 30%;
+    border: 1px solid rgb(4, 96, 172);
+    border-radius: 2px;
+    background-color: rgb(51, 148, 228);
+    color: white;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+.button:hover {
+    transition: background-color 250ms ease 0s;
+    background-color: rgb(106, 177, 235);
+}
+
+.facebook-login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 80%;
+}
+
+#top {
+    margin-top: 5%;
+}
+
+#line-1,
+#line-2 {
+    width: 40%;
+    height: 1px;
+    background-color: black;
+}
+
+#or {
+    font-size: 0.6em;
+}
+
+#bottom {
+    margin-top: 4%;
+    justify-content: center;
+}
+
+#facebook-logo {
+    width: 15%;
+}
+
+#facebook-link {
+    text-decoration: none;
+    font-size: 0.65em;
+    font-weight: 600;
+    color: rgb(49, 49, 150);
+}
+
+#facebook-link:hover {
+    text-decoration: underline;
+}
+
+#forgot {
+    margin-top: 5%;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+#forgot:hover {
+    text-decoration: underline;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    font-size: 0.7em;
+}
+
+#middle-link {
+    margin-left: 2%;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(51, 148, 228);
+}
+
+#middle-link:hover {
+    text-decoration: underline;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bottom-text {
+    font-size: 0.7em;
+    margin-top: 3%;
+}
+
+#get-app {
+    display: flex;
+    justify-content: space-evenly;
+
+    height: 70%;
+    width: 100%;
+    align-items: center;
+}
+
+.get-app-link {
+    display: flex;
+    width: 40%;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+.footer-1,
+.footer-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    min-width: 450px;
+    width: 55vw;
+}
+
+.footer-1 {
+    margin: 5vw auto 0 auto;
+}
+
+.footer-2 {
+    margin: 0 auto 3vw auto;
+}
+
+.footer-1-link,
+.footer-2-link {
+    display: block;
+    margin: 5px 10px;
+
+    font-size: 0.7em;
+    color: rgb(109, 109, 109);
+    text-decoration: none;
+}
+
+.footer-1-link:hover,
+.footer-2-link:hover {
+    text-decoration: underline;
+}
