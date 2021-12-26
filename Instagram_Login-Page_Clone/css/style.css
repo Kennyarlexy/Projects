@@ -94,6 +94,7 @@ form {
     color: white;
     font-weight: 700;
     font-size: 0.8em;
+    cursor: pointer;
 }
 
 .button:hover {
